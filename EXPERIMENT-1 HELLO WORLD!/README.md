@@ -1,4 +1,5 @@
 # 🌍🚀 Hello World in Docker
+![Docker Hub Repository](https://github.com/graheetphartyal23/Docker/blob/main/EXPERIMENT-1%20HELLO%20WORLD!/Screenshot%202025-02-20%20001146.png)
 
 This guide will walk you through deploying a simple **Hello World!** application in Python using Docker. We'll create a Dockerfile, build the Docker image, and run it as a container.
 
