@@ -1,6 +1,6 @@
 
 
-### **🐳 MySQL Docker Setup**  
+# **🐳 MySQL Docker Setup**  
 
 ![Docker Hub Repository](https://github.com/graheetphartyal23/Docker/blob/main/Contanerised%20MySQL/Screenshot%202025-03-28%20210906.png)
 
@@ -145,19 +145,10 @@ mysql-docker-setup/
 │── README.md        # Project documentation
 ```
 
----
 
-## **📜 Notes**  
-- The `database.sql` file will **execute only on the first run** to initialize the database.  
-- The **root password** is set to `root` (for production, change this).  
-- MySQL **default port is 3306**, but we mapped it to **3307** to avoid conflicts.  
 
----
 
-## **💡 Troubleshooting**  
 
-### **🔹 Issue: Access Denied for 'root'@'localhost'**  
-Try resetting the password inside the container:  
 
 ```bash
 docker exec -it mysql-container-new mysql -u root
@@ -180,4 +171,4 @@ Restart the container and try again.
 ---
 
 ## **🚀 You Have Successfully Deployed MySQL in Docker!** 🎉  
-Would you like to automate this process with **Docker Compose**? 😊  
+
